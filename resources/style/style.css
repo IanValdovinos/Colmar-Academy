@@ -146,4 +146,67 @@ main .start_learning .cources_container .cource .description{
     margin: 0 16px;
 }
 
+/* Thesis section */
+
+main .thesis {
+    border: 1px solid red;
+    text-align: center;
+}
+
+main .thesis .video_container {
+    display: flex;
+}
+
+main .thesis .video_container .current_video {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+main .thesis .video_container .current_video video {
+    width: 100%;
+}
+
+main .thesis .video_container .current_video .description {
+    text-align: left;
+}
+
+main .thesis .video_container .other_videos {
+    width: 40%;
+}
+
+main .thesis .video_container .other_videos .video_option{
+    border: 1px solid red;
+    display: flex;
+}
+
+main .thesis .video_container .other_videos .video_option .thumbnail{
+    width: 35%;
+    margin: 16px;
+}
+
+main .thesis .video_container .other_videos .video_option .thumbnail img{
+    width: 100%;
+}
+
+main .thesis .video_container .other_videos .video_option .description{
+    width: 65%;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+/* footer */
+
+footer {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 8px;
+}
+
+
+
 
