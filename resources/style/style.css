@@ -118,3 +118,32 @@ main .article .news .news_item .description h4 {
 main .article .news .news_item .description p {
     margin: 5px 0;
 }
+
+/* Start learning */
+main .start_learning {
+    border: 1px solid red;
+    text-align: center;
+}
+
+main .start_learning .cources_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .start_learning .cources_container .cource{
+    border: 1px solid black;
+    width: 27%;
+    margin: 16px;
+}
+
+main .start_learning .cources_container .cource img{
+    width: 100%;
+}
+
+main .start_learning .cources_container .cource .description{
+    text-align: left;
+    margin: 0 16px;
+}
+
+
