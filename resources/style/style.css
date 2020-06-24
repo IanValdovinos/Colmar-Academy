@@ -64,3 +64,24 @@ header .banner .info .button {
 header .banner .info .button h4{
     margin: 8px auto;
 }
+
+/* Article */
+main .article {
+    border: 1px solid red
+}
+main .article .practice {
+    border: 1px solid blue;
+    width: 65%;
+    text-align: center;
+}
+
+main .article .practice img{
+    width: 85%;
+}
+
+main .article .practice .info {
+    border: 1px solid green;
+    width: 85%;
+    margin: auto;
+    text-align: left;
+}
