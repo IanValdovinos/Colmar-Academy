@@ -67,11 +67,12 @@ header .banner .info .button h4{
 
 /* Article */
 main .article {
-    border: 1px solid red
+    border: 1px solid red;
+    display: flex;
+    padding: 32px 0;
 }
 main .article .practice {
-    border: 1px solid blue;
-    width: 65%;
+    width: 60%;
     text-align: center;
 }
 
@@ -80,8 +81,40 @@ main .article .practice img{
 }
 
 main .article .practice .info {
-    border: 1px solid green;
     width: 85%;
     margin: auto;
     text-align: left;
+}
+
+/* Article news */
+
+main .article .news {
+    width: 40%;
+    font-size: 0.85em;
+    border-left: 1px solid grey;
+}
+
+main .article .news .news_item {
+    display: flex;
+    padding: 16px;
+}
+
+main .article .news .news_item .thumbnail {
+    width: 35%;
+}
+
+main .article .news .news_item img {
+    width: 90%;
+    margin: 0;
+}
+
+main .article .news .news_item .description {
+    width: 65%;
+}
+
+main .article .news .news_item .description h4 {
+    margin-bottom: 0;
+}
+main .article .news .news_item .description p {
+    margin: 5px 0;
 }
