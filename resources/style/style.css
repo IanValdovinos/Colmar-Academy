@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    font-weight: 700;
+}
+
 /* navigation bar */
 nav {
     display: flex;
@@ -110,11 +114,14 @@ header .banner .info .button h4{
 
 /* Article */
 main .article {
-    border: 1px solid red;
     display: flex;
     padding: 32px 0;
 }
 main .article .practice {
+    border-radius: 20px;
+    background-color: #e0dcd8;
+    padding-top:30px;
+    margin-right: 10px;
     width: 60%;
     text-align: center;
 }
