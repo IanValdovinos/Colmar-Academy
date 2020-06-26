@@ -39,6 +39,7 @@ nav .logo h1 {
     margin: 0;
 }
 
+
 nav .logo h1 span {
     color: #a8a6a5;
 }
@@ -58,6 +59,27 @@ nav .navigation li a {
 
 nav .navigation li a:hover {
     color: black;
+}
+
+nav .nav_mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav .logo, .navigation {
+        display: none;
+    }
+
+    nav .nav_mobile {
+        width: 100%;
+        display: flex;
+        height: 64px;
+        justify-content: space-around;
+    }
+
+    nav .nav_mobile img {
+        width: 8%;
+    }
 }
 
 /* banner */
@@ -110,6 +132,10 @@ header .banner .info .button h4{
     margin: 8px auto;
     padding: 0;
     margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    
 }
 
 /* Article */
@@ -171,7 +197,7 @@ main .article .news .news_item .description p {
 
 /* Start learning */
 main .start_learning {
-    border: 1px solid red;
+    background-color: #f0ebe8;
     text-align: center;
 }
 
@@ -182,13 +208,17 @@ main .start_learning .cources_container {
 }
 
 main .start_learning .cources_container .cource{
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 10px;
     width: 27%;
     margin: 16px;
+    z-index: 5;
+    background-color: white;
 }
 
 main .start_learning .cources_container .cource img{
     width: 100%;
+    border-radius: 9px 9px 0 0;
 }
 
 main .start_learning .cources_container .cource .description{
@@ -199,7 +229,6 @@ main .start_learning .cources_container .cource .description{
 /* Thesis section */
 
 main .thesis {
-    border: 1px solid red;
     text-align: center;
 }
 
@@ -225,8 +254,11 @@ main .thesis .video_container .other_videos {
 }
 
 main .thesis .video_container .other_videos .video_option{
-    border: 1px solid red;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #f0ebe8;
     display: flex;
+    margin: 5px;
 }
 
 main .thesis .video_container .other_videos .video_option .thumbnail{
@@ -247,6 +279,7 @@ main .thesis .video_container .other_videos .video_option .description{
 /* footer */
 
 footer {
+    border-top: 2px solid black;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
