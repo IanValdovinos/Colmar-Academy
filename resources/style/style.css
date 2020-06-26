@@ -135,7 +135,34 @@ header .banner .info .button h4{
 }
 
 @media only screen and (max-width: 600px) {
-    
+    header {
+        margin-top: 64px;
+        padding: 0;
+        width: 100%;
+    }
+
+    header .banner {
+        left: 0;
+        right: 0;
+        padding: 0;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+
+    header .banner img {
+        border: none;
+        border-radius: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    header .banner .info {
+        width: 100%;
+        margin: 0 10px;
+    }
+
+
 }
 
 /* Article */
