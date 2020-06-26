@@ -8,8 +8,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
-    padding: 0 24px;
+    border-bottom: 2px solid black;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10;
+    background-color: #d4d2d1;
 }
 
 nav .logo{
@@ -32,9 +37,21 @@ nav .logo h1 span {
 nav .navigation li {
     display: inline-block;
     margin: 0 16px;
+    font-weight: 700;
+    color: #7a7776;
+    transition: color 0.4s ease-out;
+}
+
+nav .navigation li:hover {
+    color: black;
 }
 
 /* banner */
+
+header {
+    margin-top: 50px;
+}
+
 header .banner {
     border: 1px solid red;
     padding: 32px 24px;
