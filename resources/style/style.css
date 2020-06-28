@@ -73,7 +73,7 @@ nav .nav_mobile {
     nav .nav_mobile {
         width: 100%;
         display: flex;
-        height: 64px;
+        min-height: 64px;
         justify-content: space-around;
         top: 0;
     }
@@ -384,6 +384,26 @@ main .thesis .video_container .other_videos .video_option .description{
     text-align: left;
 }
 
+@media only screen and (max-width: 770px){
+    .thesis .video_container .other_videos {
+        display: none;
+    }
+
+    .thesis .video_container .current_video .description {
+        display: none;
+    }
+
+    main .thesis .video_container .current_video {
+        width: 100%;
+        margin: 0;
+    }
+    
+    main .thesis .video_container .current_video video {
+        width: 100%;
+    }
+}
+
+
 /* footer */
 
 footer {
@@ -396,6 +416,24 @@ footer {
 footer li {
     display: inline-block;
     margin: 0 8px;
+}
+
+@media only screen and (max-width: 770px){
+    footer {
+        font-size: 0.7rem;
+    }
+
+    footer .rights {
+        width: 100%;
+    }
+    
+    footer .term_privacy {
+        display: none;
+    }
+
+    footer ul li {
+        display: none;
+    }
 }
 
 
