@@ -209,6 +209,10 @@ main .article .news .news_item .thumbnail {
     width: 35%;
 }
 
+.article .mobile_thumbnail img {
+    display: none;
+}
+
 main .article .news .news_item img {
     width: 90%;
     margin: 0;
@@ -250,6 +254,10 @@ main .article .news .news_item .description p {
         padding: 0;
         flex-direction: column;
         margin-bottom: 20px;
+    }
+
+    .article .mobile_thumbnail img {
+        display: block;
     }
 
     .article .mobile_thumbnail img {
